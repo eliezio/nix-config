@@ -1,0 +1,36 @@
+git-name: Eliezio Oliveira
+git-email: eliezio@pm.me
+github-token: ENC[AES256_GCM,data:a/8PvyydQNE0+8YIOgI4QxGHuvON7XTrUMaJgaEEfV1YQAxe04CyCw==,iv:BECZLSYPz55Fqsx50s09h5Qq+R5BsDVC8iz+IdJYY/0=,tag:VcGF3J64dMgfyCK5aTrcSA==,type:str]
+sops:
+    age:
+        - recipient: age1maxymvc7n2catqs09keyyh56camclgpjsfuzazf6lhap3fw6m3wssf5642
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBlUWFvdEdTbFNYTlQ3K2lr
+            Nm5KWFhkb2M0RG55K3lLUS91ZmM2elFXVmo0CnFTUUdXRnlyWHBSOFdCL0QyYVlI
+            eElRdUEzbU1HUkxpRmdYbHh4NnNOM0kKLS0tIDZsc01rY0pKamRnczFEU2hKVXpS
+            N1BVUFFVU1Vta3ZteHl0RXoydmFENVkKG8ZaAwyxmN5dXhgyVnqIow6sOaPHY1r0
+            Ic5bCv3CAz0M8DRElgUrom4UZ/72sQtaOsMpgSgRIETwLH9C+ZUjGQ==
+            -----END AGE ENCRYPTED FILE-----
+        - recipient: age1r32dake9w7l4wc8rr6nqz8gdjcdvndcz6vchyvm8fce7xqfyzc9qc2v7y2
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBreXg1NW1EVXcrSWRSeTNl
+            a3ZvaTgyTFBNWHlJVklDTWFsZ2tjTnVYcXhvCnB1TlVWTzU4TkhoelFxOXJiblRB
+            QlkyZ1RobmxBUXV5VnloK0hJNUxMdk0KLS0tIGdvbkhMc1hURGduT2RsSDk5VnBK
+            SFh5S243M2pRWmJTQThhbnh4SE5PRzAKMA9Ia/X/+rV+5kW3iGJnJ3AsalzLVQ9R
+            udIHMd16gfMVJ2aX4TFualBc1aTsCYtC8LlOHlLcwosG7hDnjEt7wQ==
+            -----END AGE ENCRYPTED FILE-----
+        - recipient: age1n6w2lrj4mg7vk890kv3l5d7p0k30t7a57884w6q4ny0n0ehw3enqpsjhxa
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSArWWN5YnNGekVhaU5DU29F
+            WEhQay80eUhOcUloeEZKNitJV3BiSUlPM1dJCmVScDE5cjQ5NUM1d1BjMTdCOC9l
+            MlhLRm9uTjVQWDQyeFhGRUpEZTBaK3MKLS0tIEdWWnVHWU5rYmI0WWM0OWlvU00y
+            cXNQclVhVVFPbWU0T3ovZ1RENm92LzAKo1tGWZB5GC+lZoW92l3a/mlAOYumU0eg
+            5fDYhUFib97M+SWbOISmHYKPHHOQgvAcFYsflkirbBmespN0vqhLWg==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2026-04-12T15:57:38Z"
+    mac: ENC[AES256_GCM,data:A4xYiOds8Ve0fAtGAdvCNWrYN8120Y6NTgRKFujJNB5cQMIJYWgKoqEw6iJPniPBMhwdzWSNt8PbOq+OJelH+f1PZlEviJT47guo458kmZIxGuKrWkaFiDTj5yuoo+8SzzpqEi++ksXW++ABkYB7GHo/FjH1xZyX9/i2v6btp9g=,iv:kx4/GhLNgsg6yvH7o4Rx/LEYnzdM4FLpdHHIjXjYsnU=,tag:OmUPDNiAnwmB4DBGb1QpxQ==,type:str]
+    encrypted_regex: -(password|token)$
+    version: 3.11.0
