@@ -16,7 +16,6 @@
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
     historySubstringSearch.enable = true;
-    zsh-abbr.enable = true;
 
     plugins = [
       { name = "fzf-tab"; src = pkgs.zsh-fzf-tab; }
