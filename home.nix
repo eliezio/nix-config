@@ -40,14 +40,6 @@
     awscli.enable = true;
     bat.enable = true;
     direnv = { enable = true; nix-direnv.enable = true; };
-    eza = {
-      enable = true;
-      enableZshIntegration = true;
-      icons = "auto";
-      extraOptions = [
-        "--group"
-      ];
-    };
     fd.enable = true;
     fzf = {
       enable = true;
@@ -66,6 +58,14 @@
         LONG-PROMPT = true;
         IGNORE-CASE = true;
         RAW-CONTROL-CHARS = true;
+      };
+    };
+    lsd = {
+      enable = true;
+      enableZshIntegration = true;
+      settings = {
+        sorting.dir-grouping = "first";
+        date = "+%b %e %H:%M";
       };
     };
     ripgrep.enable = true;
