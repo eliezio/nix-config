@@ -51,7 +51,13 @@
     jq.enable = true;
     k9s.enable = true;
     lazydocker.enable = true;
-    lazygit.enable = true;
+    lazygit = {
+      enable = true;
+      settings = {
+        gui.nerdFontsVersion = "3";
+        git.log.showWholeGraph = true;
+      };
+    };
     less = {
       enable = true;
       options = {
