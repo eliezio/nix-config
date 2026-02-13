@@ -30,6 +30,7 @@
     ./modules/zsh.nix
     ./modules/starship.nix
     ./modules/nvim.nix
+    ./modules/tmux.nix
   ];
 
   # Zsh configuration
