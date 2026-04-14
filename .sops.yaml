@@ -1,6 +1,5 @@
 keys:
-  - &admin age1maxymvc7n2catqs09keyyh56camclgpjsfuzazf6lhap3fw6m3wssf5642
-
+  - &admin age1xp3zdc7yl4c4pkar0sjchmr89v4sw4y32uflqm5t67rgm4kh8snqe3edxr
 creation_rules:
   - path_regex: user.yaml$
     encrypted_regex: "-(password|token)$"
